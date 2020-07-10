@@ -1,10 +1,13 @@
 function hello(){
     console.log();
     alert();
-    const newLocal = 10;
-    var y = newLocal;
-    console.log(y);
+    hello();
+    
+
+    function hello() {
+        const newLocal = 10;
+        var xyz = newLocal;
+        console.log(xyz);
+    }
 }
 
-hello();
-hello();
