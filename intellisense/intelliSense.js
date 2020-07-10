@@ -7,3 +7,4 @@ function hello(){
 }
 
 hello();
+hello();
